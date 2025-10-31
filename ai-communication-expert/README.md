@@ -324,13 +324,14 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👥 Team
 
-- **Developer**: [Your Name]
+- **Developer**: Pradyot Soni
 - **Organization**: Urban Development Department PMU
-- **Contact**: [Your Email]
+- **Contact**: sonipradyot@gmail.com
 
 ## 🙏 Acknowledgments
 
 - Anthropic for Claude API
+- Open AI for Open AI API
 - FastAPI framework
 - Indian Government MOP guidelines
 
