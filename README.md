@@ -36,6 +36,7 @@ The **AI Communication Expert** is an intelligent system designed to automate th
                      │    Engine    │      │  Generator  │
                      └──────────────┘      └─────────────┘
 ```
+<img width="979" height="710" alt="image" src="https://github.com/user-attachments/assets/94091d3e-52c3-46c7-8e0c-51f43bc17e62" />
 
 ### System Components
 
