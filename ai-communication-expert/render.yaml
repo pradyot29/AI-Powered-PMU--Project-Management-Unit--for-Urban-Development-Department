@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: ai-communication-expert
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: PRIMARY_LLM
+        value: openai
+      - key: MODEL_NAME
+        value: gpt-4o
+      - key: DATABASE_URL
+        value: sqlite:///./pmu_communications.db
+      - key: OUTPUT_DIR
+        value: ./outputs
+      - key: DEPARTMENT_NAME
+        value: Urban Development Department
+      - key: STATE_NAME
+        value: Maharashtra
+    disk:
+      name: data
+      mountPath: /opt/render/project/src
+      sizeGB: 1
