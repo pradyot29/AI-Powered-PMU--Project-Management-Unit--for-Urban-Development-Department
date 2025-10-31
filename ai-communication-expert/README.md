@@ -14,7 +14,7 @@ The **AI Communication Expert** is an intelligent system designed to automate th
 
 - **Multi-Format Document Generation**: Official letters, emails, meeting minutes, memos, circulars
 - **Government Compliance**: Follows Manual of Office Procedure (MOP) and standard government formats
-- **Dual AI Engine**: Claude Sonnet 4 (primary) with GPT-4o fallback
+- **AI Engine**:  GPT-4o
 - **Multiple Export Formats**: PDF and DOCX generation
 - **Audit Trail**: Complete version history and metadata tracking
 - **Cost Optimization**: Token tracking and cost estimation
@@ -25,8 +25,8 @@ The **AI Communication Expert** is an intelligent system designed to automate th
 
 ```
 ┌─────────────┐      ┌──────────────┐      ┌─────────────┐      ┌──────────┐
-│   User      │─────▶│  API Gateway │─────▶│ AI Pipeline │─────▶│ Database │
-│  Interface  │      │   (FastAPI)  │      │  (Claude)   │      │ (SQLite) │
+│   User      │─────▶│  API Gateway │─────▶│ AI Pipeline│─────▶│Database │
+│  Interface  │      │   (FastAPI)  │      │  (OpenAI)   │      │ (SQLite) │
 └─────────────┘      └──────────────┘      └─────────────┘      └──────────┘
                             │                     │
                             │                     │
