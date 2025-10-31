@@ -119,7 +119,7 @@ async def generate_document(
                 "agenda_items": request.agenda_items
             }
         )
-        
+
         db.add(db_document)
         db.commit()
         db.refresh(db_document)
@@ -371,7 +371,7 @@ async def read_root():
                 </div>
                 <div class="info-card">
                     <h3>AI Model</h3>
-                    <p>Claude Sonnet 4</p>
+                    <p>GPT 4o</p>
                 </div>
             </div>
             
